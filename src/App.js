@@ -7,11 +7,11 @@ function App() {
     <Row justify='center' style={{marginTop: '40px'}}>
       <Col span={8} style={{textAlign: 'center'}}>
         <div>
-          Hello, world!
+          Olá, mundo!
         </div>
 
         <div>
-          <Button type='primary'>Click Me!</Button>
+          <Button type='primary'>Clique em mim!</Button>
         </div>
       </Col>
     </Row>
