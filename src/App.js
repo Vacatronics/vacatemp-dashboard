@@ -1,18 +1,25 @@
 import React from 'react';
-import { Button, Row, Col } from 'antd';
+import { Row, Col, Typography, Divider } from 'antd';
+import {SensorsList} from './SensorsList';
 
 
 function App() {
   return (
     <Row justify='center' style={{marginTop: '40px'}}>
-      <Col span={8} style={{textAlign: 'center'}}>
-        <div>
-          Olá, mundo!
-        </div>
+      <Col span={16}>
+        <Row>
+          <Typography.Title>
+            Estação monitoramento - Vacatronics
+          </Typography.Title>
+        </Row>
 
-        <div>
-          <Button type='primary'>Clique em mim!</Button>
-        </div>
+        <Row>
+          <Divider />
+        </Row>
+
+        <Row>
+          <SensorsList />
+        </Row>
       </Col>
     </Row>
   );
