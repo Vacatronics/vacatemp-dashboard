@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Typography, Divider } from 'antd';
-import {SensorsList} from './SensorsList';
+import {Sensors} from './Sensors';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         </Row>
 
         <Row>
-          <SensorsList />
+          <Sensors />
         </Row>
       </Col>
     </Row>
